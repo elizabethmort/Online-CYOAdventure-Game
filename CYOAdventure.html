@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery.js"></script>
+    <script src="CYOAdventure.js"></script>
+    <link rel="stylesheet" type="text/css" href="CYOAdventure.css">
+    <title>ChooseYourOwnAdventure</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="page1" class="page">
+    <p class="welcome">
+        Welcome to our Choose-Your-Own Online-Adventure Game!
+    </p>
+    <p class="welcome">
+        Select Option A to Quench thy thirst for Dwarven Blood with thy Sword of Bahddass-Hyde
+        <br/>
+        or
+        <br/>
+        Select Option B to Farteth thy Rainbow Glitter whilst Squatting upon thine Unicorn's Rear
+    </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(2)" type="radio" name="answer1" value="wrong">
+            <br/>
+            B<input onclick="gotoPage(3)" type="radio" name="answer1" value="right">
+        </form>
+    </div>
+</div>
+<div id="page2" class="page">
+    <p class="oldEnglish">
+        Henceforth we shall call thee Darklandar, Weilder of thy Bahddass-Blade.
+    </p>
+
+    <p class="oldEnglish2">
+        We Beseech Thee to Make a Decision Mylord, What Darkness shall be Conquered Today?
+    </p>
+    <br/>
+
+    <p class="oldEnglish">
+        Select Option A to Stroll Forth unto the Dwarven Battle Raging at HaayhlYah Pointe
+        <br/>
+        or
+        <br/>
+        Select Option B to Calleth Upon thy Stohned Wizard to spark Fyre for thy NightKhamp.
+    </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(4)" type="radio" name="answer1" value="wrong">
+            <br/>
+            B<input onclick="gotoPage(5)" type="radio" name="answer1" value="right">
+        </form>
+    </div>
+</div>
+
+<!--Wrong Answers-->
+
+<div id="page3" class="page">
+    <p class="princess"><i>
+        Thy Unicorn of Glitteryness Trips Over it's Tail and Flings You Over the Hills
+        of Yonderland...
+    </i></p>
+
+    <p class="princess">
+        We Wisheth Thee Luck in Thine Future of Peaceful Oblivion... Goodbye.
+    </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(1)" type="radio" name="answer1" value="wrong">
+            <br/>
+        </form>
+    </div>
+</div>
+<div id="page4" class="page">
+    <p class="oldEnglish2">
+        As thou Walketh Throuh Thy Valley of Thy Shadow of Death, Thou Lookest Upon thy Grusome
+        Scene....
+    </p>
+
+    <p class="princess">
+        Upon Which MyLord of Darkness Tucks Tail and Flees.
+    </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(5)" type="radio" name="answer1" value="wrong">
+        </form>
+    </div>
+</div>
+
+<!-- End Wrong Answers-->
+
+<div id="page5" class="page">
+    <div>
+        <p class="oldEnglish">
+            Arriving Safely at thy Piddly NightKhamp, thou Summons thee Wizard from thy Netherworld using
+            thy katchfraze
+
+        <p class="oldEnglish2">
+            "Ting-a-ling oh Wizard yee!"
+        </p>
+    </div>
+    <p class="oldEnglish">
+        Wither he be Deaf or Caught in a Haze of an AhfGhan Grass Fyre, thee Wizard can neigh be found...
+        What Shall thee Do Now?
+        <br/>
+        <br/>
+        Select Option A to Scour thy Land for Tinder and Stone
+        <br/>
+        or
+        <br/>
+        Select Option B to Maketh thy Bed and Layeth Until thee Morn Arives.
+    </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(6)" type="radio" name="answer1" value="wrong">
+            <br/>
+            B<input onclick="gotoPage(7)" type="radio" name="answer1" value="right">
+        </form>
+    </div>
+</div>
+<div id="page6" class="page">
+    <p> Content of Pg.6 </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(8)" type="radio" name="answer1" value="wrong">
+            <br/>
+            B<input onclick="gotoPage(9)" type="radio" name="answer1" value="right">
+        </form>
+    </div>
+</div>
+<div id="page7" class="page">
+    <p> Content of Pg.7 </p>
+
+    <div>
+        <form>
+            A<input onclick="gotoPage(10)" type="radio" name="answer1" value="wrong">
+            <br/>
+            B<input onclick="gotoPage(11)" type="radio" name="answer1" value="right">
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+* {
+    background-color: #F5FFFF;
+}
+.page {
+
+}
+
+p {
+    font-size: 13pt;
+    text-align: center;
+    text-shadow: 0.3px 0.3px #80B2CC;
+}
+form {
+    font-size: 13pt;
+    font-family: "Bookman", Georgia, "Times New Roman", serif;
+}
+.welcome {
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+
+.oldEnglish {
+    font-family: papyrus, "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+.oldEnglish2 {
+    font-family: papyrus, "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-size: 13pt;
+    color: #720000;
+    text-shadow: .5px .5px;
+}
+
+.princess {
+    text-shadow: .3px .3px;
+    font-family: fantasy;
+    color: #E6005C;
+}
